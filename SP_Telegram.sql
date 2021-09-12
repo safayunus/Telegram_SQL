@@ -3,7 +3,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-alter PROCEDURE [dbo].[Telegram_Mesaj_Gonder] @Mesaj nvarchar(120)
+CREATE PROCEDURE [dbo].[Telegram_Mesaj_Gonder] @Mesaj nvarchar(120)
 AS
 BEGIN
 	SET NOCOUNT ON;
